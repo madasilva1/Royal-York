@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Royal York</string>
+    <!--Category  name for MyActivity-->
+    <string name="category_Floors">Floors</string>
+
+</resources>
