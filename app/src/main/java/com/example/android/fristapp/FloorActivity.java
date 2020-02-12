@@ -7,8 +7,12 @@ import android.os.Bundle;
 import android.util.Log;
 
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
 
 public class FloorActivity extends AppCompatActivity {
 
@@ -18,7 +22,6 @@ public class FloorActivity extends AppCompatActivity {
         setContentView(R.layout.activity_floor);
 // Find the View that shows the Rooms category
         TextView rooms = (TextView) findViewById(R.id.rooms);
-        // Set a click listener on that View
         rooms.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -30,6 +33,7 @@ public class FloorActivity extends AppCompatActivity {
             }
 
         });
+
 
     }
 
